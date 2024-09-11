@@ -16,6 +16,7 @@ public class GCD {
         String[] tvalues = input.split(" ");
         int t1= Integer.parseInt(tvalues[0]);//the first number
         int t2 =Integer.parseInt(tvalues[1]);//second number
+        System.out.println("The GCD is : "+gc.GreatestCom(t1, t2));
     }
     
 }
