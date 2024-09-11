@@ -11,6 +11,10 @@ public class Fib {
             value=1;
             return value;
         }
+        else if (n>1){
+            value=Fibonnaci(n-1)+Fibonnaci(n-2);
+            return value;
+        }
         return 0;
     }
 
