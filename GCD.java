@@ -15,6 +15,7 @@ public class GCD {
         String input= sc.nextLine();
         String[] tvalues = input.split(" ");
         int t1= Integer.parseInt(tvalues[0]);//the first number
+        int t2 =Integer.parseInt(tvalues[1]);//second number
     }
     
 }
