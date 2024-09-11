@@ -1,7 +1,12 @@
 import java.util.Scanner;
 
 public class Fib {
+    int value;
     public int Fibonnaci(int n){
+        if(n==0){
+            value=0;
+            return value;
+        }
         return 0;
     }
 
