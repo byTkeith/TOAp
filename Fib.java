@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
 public class Fib {
-    int value;
-    public int Fibonnaci(int n){
+    long value;
+    public long Fibonnaci(int n){
         if(n==0){
             value=0;
             return value;
@@ -15,10 +15,10 @@ public class Fib {
             value=Fibonnaci(n-1)+Fibonnaci(n-2);
             return value;
         }
-        return 0;
+        return value;
     }
 
-    }
+    
     public static void main(String[] args) {
         System.out.println("Enter the number that you want to operate:");
         Scanner scanner= new Scanner(System.in);
