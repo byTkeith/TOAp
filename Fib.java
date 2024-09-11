@@ -7,6 +7,10 @@ public class Fib {
             value=0;
             return value;
         }
+        else if (n==1){
+            value=1;
+            return value;
+        }
         return 0;
     }
 
