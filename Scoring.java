@@ -14,5 +14,13 @@ public class Scoring {
         System.out.println("Enter your values:\n");
         int n=sc.nextInt();
         int[] restOfValues= new int[n];//reads an arraylist the same amount as n
+
+        for(int i=0; i<n;i++){
+            restOfValues[i]= sc.nextInt();//read each number separately
+        }
+        int target=sc.nextInt();//takes the target
+
+        Scoring scg=new Scoring();
+        System.out.println(scg.ScoreCal(0, 1, restOfValues, target));
     }
 }
