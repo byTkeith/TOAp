@@ -1,9 +1,6 @@
 import java.util.*;
 public class modulo {
-    double x;
-    int y;
-    int value;
-    int count=0;
+    int count=0;//count to keep track of values that can pair
     public int Mod(int n, int z){
         //Random rm= new Random();
       
